@@ -7,6 +7,66 @@ nav_order: 3
 
 # **UX Design Document: ReVoice**
 
+## Initial SwiftUI Screen Breakdown & Flows
+
+### 1. Home Screen
+- Large central mic button (tap to record)
+- Recent session cards/list below
+- Settings icon (top right)
+- App logo/title (top center or as part of nav bar)
+
+### 2. Recording Screen
+- Live waveform animation (centered)
+- Timer (shows recording duration)
+- Pause/Resume and Stop buttons
+- “Cancel” button (optional)
+- Subtle instructions (“Speak your message…”) 
+
+### 3. Transcript Review Screen
+- Scrollable text area with transcript
+- “Edit” button (enables text editing)
+- “Clean Up”/“Auto-correct” button (optional)
+- “Continue” button
+- “Back” button
+
+### 4. Tone Selector Screen
+- Horizontal scrollable list of tone buttons (Gen Z, Boomer, Professional, etc.)
+- Preview area showing message in selected tone
+- “Apply” button
+- “Compare” button (optional)
+- “Back” button
+
+### 5. AI Chat Screen
+- Chat interface (user can type commands like “shorter”, “add warmth”)
+- Message preview area
+- “Accept” and “Undo” buttons
+- “Back” button
+
+### 6. Export/Share Screen
+- Final message preview
+- “Copy to Clipboard” button
+- “Share” button (iOS share sheet)
+- “Save to History” button (with optional tags)
+- Confirmation animation
+
+### 7. History/Session Management Screen
+- List of past messages (with tags, tone, date)
+- Search/filter bar
+- “Favorite” and “Delete” options
+- Detail view for each message
+
+### 8. Settings Screen
+- API key management
+- Custom tone presets
+- Theme toggle
+- Privacy settings
+- About & credits
+
+### Main User Flows
+1. Home → Recording → Transcript Review → Tone Selector → AI Chat → Export/Share → (optionally Save to History)
+2. Home → History/Session Management → Detail View
+3. Home → Settings
+
 ---
 
 ## **Layout Structure**
