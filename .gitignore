@@ -34,7 +34,8 @@ fastlane/test_output/
 
 # Docs, scripts, assets, tests
 scripts/
-assets/
+assets/*
+!assets/logo.png
 tests/
 
 # Xcode Server
